@@ -4,13 +4,12 @@ public class HW6 {
 
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        int v1 = scn.nextInt();
-        int v2 = scn.nextInt();
+        String str = scn.next();
+        char ch1 = scn.next().charAt(0);
+
+        System.out.println(str.replace(ch1, '\n'));
 
 
-
-        System.out.println(v1/2.54d);
-        System.out.println(v2/0.454d);
 
     }
 }
